@@ -3,6 +3,31 @@
 export const filmes = [
 
     {
+        id: " Como Eu era antes de você",
+        titulo: " Como Eu era antes de você",
+        imagem: "Imagens/como.jpg",
+        descricao: "Louisa Clark é contratada para cuidar de Will Traynor, um homem rico que ficou tetraplégico após um acidente e perdeu a vontade de viver",
+        trailer: "PnqUs3xiAVI?si=6eilUlwWCd_7ITTK"
+    },
+
+
+    {
+        id: " Sua culpa",
+        titulo: " Sua culpa",
+        imagem: "Imagens/sua.jpg",
+        descricao: "Sua Culpa continua a história de amor entre os meio-irmãos Noah e Nick, que enfrentam novos desafios ao entrarem na vida adulta, lidando com a faculdade, o trabalho, o ciúme e a interferência dos pais para separá-los",
+        trailer: "B2EX6qahZis?si=MSW7WHJESfLl70a6"
+    },
+
+    {
+        id: " Minha culpa",
+        titulo: " Minha culpa",
+        imagem: "Imagens/minha.jpg",
+        descricao: "O filme Minha Culpa acompanha a jovem Noah, que é obrigada a deixar sua cidade, amigos e namorado para se mudar para a mansão luxuosa do novo e rico marido de sua mãe",
+        trailer: "EkOJWulrkO4?si=hg8YBt6b-S4aoCKs"
+    },
+
+    {
         id: " O Homem do saco",
         titulo: "O Homem do saco",
         imagem: "Imagens/o homem.jpg",
@@ -59,6 +84,17 @@ export const filmes = [
     },
 
     
+
+
+    {
+        id: "Nossa Culpa",
+        titulo: "Nossa Culpa",
+        imagem: "Imagens/nossa.jpg",
+        descricao: " Nick e Noah se reencontram no casamento de amigos em comum após passarem anos separados e seguirem caminhos diferentes",
+        trailer: "72e_AtbGazo?si=7R_pwCDlSEz-p8Qz"
+    },
+
+
     {
         id: "Ricos de Amor",
         titulo: "Ricos de Amor",
@@ -77,11 +113,28 @@ export const filmes = [
     },
 
     {
+        id: " a barraca do beijo 2",
+        titulo: " a barraca do beijo 2",
+        imagem: "Imagens/barraca2.jpg",
+        descricao: "Elle Evans lida com um relacionamento à distância com Noah em Harvard, a chegada de um novo aluno atraente chamado Marco e o dilema de qual faculdade escolhe",
+        trailer: "lWImVp38gy4?si=stzL6Yt8a-skRtHu"
+    },
+
+    {
         id: " A Empregada",
         titulo: "A Empregada",
         imagem: "Imagens/empregada.jpg",
         descricao: "O filme A Empregada (2025), dirigido por Paul Feig e baseado no livro de Freida McFadden, acompanha Millie (Sydney Sweeney), uma jovem com um passado criminal que aceita trabalhar como doméstica na mansão do rico casal Nina (Amanda Seyfried) e Andrew Winchester.",
         trailer: "Nsm0qczuTZk?si=xl5yvHVGTgxcnPrk"
+    },
+
+
+    {
+        id: " Através da Minha Janela 3: Olhos nos Olhos",
+        titulo: "Através da Minha Janela 3: Olhos nos Olhos",
+        imagem: "Imagens/atraves3.jpg",
+        descricao: "Raquel e Ares mantêm um relacionamento à distância. Quando se reencontram durante o verão nas paisagens da Costa Brava com os amigos, ambos começam a questionar-se se a sua relação resistirá ao passar do tempo.",
+        trailer: "aditICokASc?si=m2PGsBmhSX-khKz7"
     },
 
     {
@@ -117,12 +170,21 @@ export const filmes = [
     },
 
     {
+        id: "Através da Minha Janela 2: Além-mar",
+        titulo: " Através da Minha Janela 2: Além-mar",
+        imagem : "imagens/atraves2.jpg", 
+        descricao: "acompanha os desafios do relacionamento à distância entre Raquel e Ares",
+        trailer: "wbbHMsB6OwI?si=pj9PbTX-CNjzzPMc"
+    } ,
+
+    {
         id: " o menino do pijama listrado",
         titulo: " o menino do pijama listrado",
         imagem : "imagens/o menino do pijama.jpg", 
         descricao: "conta a história de Bruno, um garoto alemão de 9 anos que se muda com a família para perto de um campo de concentração onde seu pai é comandante. Lá, ele faz amizade com Shmuel, um menino judeu preso do outro lado da cerca. A tragédia acontece quando Bruno cruza a cerca para ajudar o amigo e morre inocentemente na câmara de gás.",
         trailer: "uZD-ySKl91A?si=JnIfGmmcQNoKJYza"
     }
+
 ];
 
 export const series = [
