@@ -2,14 +2,71 @@
 
 export const filmes = [
 
+    {
+        id: " O Homem do saco",
+        titulo: "O Homem do saco",
+        imagem: "Imagens/o homem.jpg",
+        descricao: "O filme O Homem do Saco (Bagman) acompanha Patrick McKee (Sam Claflin), um homem que precisa enfrentar um trauma de infância quando uma criatura mítica e maligna do passado retorna para ameaçar sua esposa Karina (Antonia Thomas) e seu filho Jake (Caréll Vincent Rhoden)",
+        trailer: "q8Pe2-D051k?si=SPQ7BjHqJLx2MdaB"
+    },
+
+    {
+        id: "Atraves da minha janela",
+        titulo: "Atraves da minha janela",
+        imagem: "Imagens/atraves.jpg",
+        descricao: "Através da Minha Janela conta a história de Raquel, uma jovem tímida que é apaixonada em segredo por seu vizinho rico e misterioso, Ares Hidalgo",
+        trailer: "gyd3X62IcEM?si=04IdEY1P-b3GR0vV"
+    },
+
+    {
+        id: "Caos e Destruição",
+        titulo: "Caos e Destruição",
+        imagem: "Imagens/caos.jpg",
+        descricao: "A trama acompanha Walker (Tom Hardy), um detetive policial ferido, desiludido e violento. Após uma transação de tráfico de drogas dar totalmente errado, ele é forçado a abrir caminho pelo submundo de uma cidade decadente e corrupta. Sua missão principal é resgatar o filho de um político influente que está envolvido em uma perigosa teia de conspirações. No percurso, Walker precisa enfrentar criminosos, gangues e até mesmo colegas de farda corrompidos",
+        trailer: "3OMjzghu_Jw?si=I6yN2MZRm58hmxKg"
+    },
 
     {
         id: " A branca de Neve",
         titulo: "A branca de Neve",
         imagem: "Imagens/a branca de neve.jpeg",
-        descricao: "Sinopse e EnredoA história acompanha a princesa Branca de Neve (Rachel Zegler), cuja bondade e beleza despertam a inveja profunda de sua madrasta, a vaidosa Rainha Má (Gal Gadot). Após o sumiço do rei, a Rainha assume o trono e tenta eliminar a enteada. Branca de Neve consegue fugir para uma floresta encantada, onde encontra refúgio na cabana de sete anões amigáveis. Lá, ela se une aos novos amigos e a um grupo de rebeldes para tentar recuperar o seu reino e derrotar a madrasta, que planeja pegá-la com uma maçã envenenada",
+        descricao: "A história acompanha a princesa Branca de Neve (Rachel Zegler), cuja bondade e beleza despertam a inveja profunda de sua madrasta, a vaidosa Rainha Má (Gal Gadot). Após o sumiço do rei, a Rainha assume o trono e tenta eliminar a enteada. Branca de Neve consegue fugir para uma floresta encantada, onde encontra refúgio na cabana de sete anões amigáveis. Lá, ela se une aos novos amigos e a um grupo de rebeldes para tentar recuperar o seu reino e derrotar a madrasta, que planeja pegá-la com uma maçã envenenada",
         trailer: "X3o9GyKda1k?si=yfoNglC4vcMpJyT1"
     },
+
+    {
+        id: " Barbie escola de princesas",
+        titulo: "Barbie escola de princesas",
+        imagem: "Imagens/barbie.jpg",
+        descricao: "conta a história de Blair Willows, uma jovem humilde de bom coração que ganha uma bolsa de estudos em um sorteio para frequentar a prestigiada e mágica Escola de Princesas",
+        trailer: "dgjKoFMB2rk?si=fEaMww9p4c2PplHL"
+    },
+
+    {
+        id: "Piratas do Caribe",
+        titulo: "Piratas do Caribe",
+        imagem: "Imagens/piratas.jpg",
+        descricao: "Piratas do Caribe: A Maldição do Pérola Negra (2003) é um filme de aventura e fantasia que acompanha o excêntrico capitão Jack Sparrow e o ferreiro Will Turner em uma missão para resgatar a jovem Elizabeth Swann",
+        trailer: "Dg1WwaiRoJo?si=LZ4XXxlFBRgHesCR"
+    },
+
+    {
+        id: "Alice no país das maravilhas",
+        titulo: "Alice no país das maravilhas",
+        imagem: "Imagens/alice.jpg",
+        descricao: "Alice no País das Maravilhas (seja na clássica animação de 1951 ou na versão em live-action dirigida por Tim Burton em 2010) acompanha uma jovem que segue um coelho branco apressado, cai em uma toca misteriosa e vai parar em um mundo fantástico, ilógico e cheio de criaturas excêntricas",
+        trailer: "uJqMRLFezbo?si=DDQAguoTQ7yE4epI"
+    },
+
+    
+    {
+        id: "Ricos de Amor",
+        titulo: "Ricos de Amor",
+        imagem: "Imagens/ricos.png",
+        descricao: " é uma comédia romântica brasileira de 2020 da Netflix que acompanha Teto, o filho rico do Rei do Tomate, que finge ser pobre para conquistar Paula, uma estudante de medicina independente",
+        trailer: "snqqRWY_DXs?si=l_SMIidBg8fEdNdr"
+    },
+
 
     {
         id: "10 coisas que odeio em você",
