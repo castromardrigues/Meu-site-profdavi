@@ -1,55 +1,160 @@
-// FILMES
-let filmes = [
+import { filmes, series } from "./filmes.js";    
+    
+    // =========================
+    // FUNÇÃO CRIAR CARD
+    // =========================
+    
+    function criarCard(item, tipo){
 
-    {
-    titulo: "Interestellar",
-    imagem: "Imagens/Interstellar_Filme.png",
-    descricao: "Um grupo de astronautas viaja através de um buraco de minhoca em busca de um novo lar para a humanidade."
+        return `
+            <div class="card">
+    
+                <img src="${item.imagem}" alt="${item.titulo}">
+    
+                <h3>${item.titulo}</h3>
+    
+                <p>${item.descricao}</p>
+    
+                <div class="botoes">
+    
+                    <a
+                        href="player.html?tipo=${tipo}&id=${item.id}"
+                        class="btnPlay"
+                    >
+                        ▶ Assistir
+                    </a>
+    
+                    <button onclick="favoritar('${item.titulo}')">
+                        + Minha Lista
+                    </button>
+    
+                </div>
+    
+            </div>
+        `;
     }
     
-    ];
     
-    // SÉRIES
-    let series = [
-    
-    {
-    titulo: "Stranger Things",
-    imagem: "Imagens/StrangerThings_Filme.jpg",
-    descricao: "Um grupo de crianças enfrenta forças sobrenaturais e experimentos secretos em uma pequena cidade."
-    }
-
-    
-    ];
+    // =========================
+    // MOSTRAR FILMES E SÉRIES
+    // =========================
     
     function mostrar(){
     
-    let listaFilmes = document.getElementById("listaFilmes");
-    let listaSeries = document.getElementById("listaSeries");
+        let listaFilmes = document.getElementById("listaFilmes");
+        let listaSeries = document.getElementById("listaSeries");
     
-    filmes.forEach(function(f){
+        
+        listaFilmes.innerHTML = "";
+        listaSeries.innerHTML = "";
     
-    listaFilmes.innerHTML += `
-    <div class="card">
-    <img src="${f.imagem}">
-    <h3>${f.titulo}</h3>
-    <p>${f.descricao}</p>
-    </div>
-    `;
     
-    });
-    
-    series.forEach(function(s){
-    
-    listaSeries.innerHTML += `
-    <div class="card">
-    <img src="${s.imagem}">
-    <h3>${s.titulo}</h3>
-    <p>${s.descricao}</p>
-    </div>
-    `;
-    
-    });
+        filmes.forEach(function(f){
+            listaFilmes.innerHTML += criarCard(f, "filme");
+        });
+        
+        series.forEach(function(s){
+            listaSeries.innerHTML += criarCard(s, "serie");
+        });
     
     }
     
+    
+    // =========================
+    // BOTÃO ASSISTIR
+    // =========================
+    
+    function assistir(nome){
+    
+        alert("▶ Reproduzindo: " + nome);
+    
+    }
+    
+    
+    // =========================
+    // FAVORITOS
+    // =========================
+    
+    function favoritar(nome){
+    
+        alert("⭐ Adicionado à sua lista: " + nome);
+    
+    }
+
+    window.favoritar = favoritar;
+    
+    
+    // INICIAR
+    
     mostrar();
+
+    // ==============================================
+// ALTERAÇÃO 21/08 - REDIRECIONAR PARA O LOGIN
+// ==============================================
+
+function abrirLogin(){
+
+    window.location.href = "login.html";
+
+}
+
+
+// ALTERAÇÃO 21/08
+// BOTÕES ASSISTIR DOS FILMES E SÉRIES EM ALTA
+
+document.querySelectorAll(".btnPlay").forEach(function(botao){
+
+    botao.addEventListener("click", function(event){
+
+        event.preventDefault();
+
+        abrirLogin();
+
+    });
+
+});
+
+
+// ALTERAÇÃO 21/08
+// BOTÃO PRINCIPAL "ASSISTIR AGORA"
+
+const botaoAssistirAgora =
+    document.querySelector(".btnAssistir");
+
+
+if(botaoAssistirAgora){
+
+    botaoAssistirAgora.addEventListener(
+        "click",
+        function(){
+
+            abrirLogin();
+
+        }
+    );
+
+}
+
+
+// ALTERAÇÃO 21/08
+// FOTO DE PERFIL DA PÁGINA INICIAL
+
+const fotoPerfilInicio =
+    document.querySelector(".fotoPerfil");
+
+
+if(fotoPerfilInicio){
+
+    fotoPerfilInicio.style.cursor = "pointer";
+
+
+    fotoPerfilInicio.addEventListener(
+        "click",
+        function(){
+
+            abrirLogin();
+
+        }
+    );
+
+}
