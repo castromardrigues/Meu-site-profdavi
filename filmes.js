@@ -1,18 +1,36 @@
 // filmes.js
 
 export const filmes = [
+
+
+    {
+        id: " A branca de Neve",
+        titulo: "A branca de Neve",
+        imagem: "Imagens/a branca de neve.jpeg",
+        descricao: "Sinopse e EnredoA história acompanha a princesa Branca de Neve (Rachel Zegler), cuja bondade e beleza despertam a inveja profunda de sua madrasta, a vaidosa Rainha Má (Gal Gadot). Após o sumiço do rei, a Rainha assume o trono e tenta eliminar a enteada. Branca de Neve consegue fugir para uma floresta encantada, onde encontra refúgio na cabana de sete anões amigáveis. Lá, ela se une aos novos amigos e a um grupo de rebeldes para tentar recuperar o seu reino e derrotar a madrasta, que planeja pegá-la com uma maçã envenenada",
+        trailer: "X3o9GyKda1k?si=yfoNglC4vcMpJyT1"
+    },
+
     {
         id: "10 coisas que odeio em você",
         titulo: "10 coisas que odeio em você",
-        imagem: "Imagens/10 coisas.jpg",
+        imagem: "Imagens/10 coisas que eu odeio em voce.jpg",
         descricao: "O famoso poema de Kat Stratford no filme 10 Coisas que Eu Odeio em Você lista os dez pontos de irritação e o amor profundo que ela sente por Patrick Verona",
         trailer: "tD76OqlJRwQ?si=HgCGJDWj4N8uL9OM"
     },
 
     {
+        id: " A Empregada",
+        titulo: "A Empregada",
+        imagem: "Imagens/empregada.jpg",
+        descricao: "O filme A Empregada (2025), dirigido por Paul Feig e baseado no livro de Freida McFadden, acompanha Millie (Sydney Sweeney), uma jovem com um passado criminal que aceita trabalhar como doméstica na mansão do rico casal Nina (Amanda Seyfried) e Andrew Winchester.",
+        trailer: "Nsm0qczuTZk?si=xl5yvHVGTgxcnPrk"
+    },
+
+    {
         id: " A barraca do beijo",
         titulo: "A barraca do beijo",
-        imagem: "Imagens/a barraca.jpg",
+        imagem: "Imagens/barraca.jpg",
         descricao: "A Barraca do Beijo (The Kissing Booth) é um filme americano de comédia romântica adolescente de 2018, baseado no livro de Beth Reekles e lançado pela Netflix.",
         trailer: "QIalE8-E990?si=jfd2Qrtw3b5o4x3O"
     },
@@ -20,7 +38,7 @@ export const filmes = [
     {
         id: " A Bela e a Fera",
         titulo: " A Bela e a Fera",
-        imagem: "Imagens/a bela e a fera.jpg",
+        imagem: "Imagens/bela e a fera.jpg",
         descricao: " é um clássico conto de fadas que conta a história de uma jovem corajosa chamada Bela e de um príncipe transformado em uma criatura monstruosa",
         trailer: "yzHuQPgO3Gs?si=PF32SP1xt_quqdyp"
     },
@@ -28,7 +46,7 @@ export const filmes = [
     {
         id: " cinderela",
         titulo: "cinderela",
-        imagem: "imagens/cinderela2.jpg",
+        imagem: "imagens/cinderela.jpg",
         descricao: "Cinderela é uma jovem bondosa e resiliente que, após a morte do pai, passa a viver subjugada como empregada por sua cruel madrasta e filhas adotivas",
         trailer: "KsnlU2y-Lz0?si=XOWywoztvDwKuAbe"
     },
@@ -44,7 +62,7 @@ export const filmes = [
     {
         id: " o menino do pijama listrado",
         titulo: " o menino do pijama listrado",
-        imagem : "imagens/o menino.jpg", 
+        imagem : "imagens/o menino do pijama.jpg", 
         descricao: "conta a história de Bruno, um garoto alemão de 9 anos que se muda com a família para perto de um campo de concentração onde seu pai é comandante. Lá, ele faz amizade com Shmuel, um menino judeu preso do outro lado da cerca. A tragédia acontece quando Bruno cruza a cerca para ajudar o amigo e morre inocentemente na câmara de gás.",
         trailer: "uZD-ySKl91A?si=JnIfGmmcQNoKJYza"
     }
@@ -82,14 +100,14 @@ export const series = [
     {
         id: " outer banks",
         titulo: "outer banks",
-        imagem: "Imagens/outer banks.jpg",
+        imagem: "Imagens/outer.jpg",
         descricao: "O jovem John convoca seus melhores amigos para procurarem por um tesouro ligado ao desaparecimento de seu pai. Aos poucos, o grupo vai entrando em uma perigosa trama de segredos e perigos",
         trailer: "SqLHo7bIddY?si=60RF2vY_QU4j2HqF"
     },
     {
         id: " ginny and georgia",
         titulo: "ginny and georgia",
-        imagem: "Imagens/ginny and georgia.jpg",
+        imagem: "Imagens/ginny e georgia.jpg",
         descricao: "Uma adolescente e a família desejam criar raízes em uma cidade da Nova Inglaterra após anos fugindo.",
         trailer: "Kc0XVYWIadA?si=rfZrWuf8PL08WSdA"
     }
