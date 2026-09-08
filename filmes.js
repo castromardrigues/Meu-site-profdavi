@@ -203,6 +203,153 @@ export const series = [
         trailer: "JCCssUOtn2E?si=V3StBxmhVDHIv3iF"
     },
     {
+        id: "Depois daquele ano",
+        titulo: "Depois daquele ano",
+        imagem: "Imagens/depois daquele ano.jpg",
+        descricao: "Peaky Blinders acompanha T Um erro grave no passado afasta os dois por anos, até que um reencontro inesperado os obriga a enfrentar sentimentos mal resolvidos.",
+        trailer: "nyISb5s9ZlM?si=UTPf_0PDQ7NS9cbC"
+    },
+    {
+        id: "Chiquititas",
+        titulo: "Chiquititas",
+        imagem: "Imagens/chiquititas.jpg",
+        descricao: "A trama gira em torno de crianças órfãs ou abandonadas que encontram na amizade, na música e no apoio da doce cuidadora Carolina (Carol) uma verdadeira família.",
+        trailer: "vOMa-PzUdKg?si=Dcnqi3FzyFeuXr3C"
+    },
+    {
+        id: "Barbie",
+        titulo: "Barbie",
+        imagem: "Imagens/barbie2.jpg",
+        descricao: "Avatar: A Lenda de Aang acompanha Aang, um menino de 12 anos que acorda após cem anos congelado em um iceberg.",
+        trailer: "okss5sUpca8?si=sR9LN2O0yRHOlTO-"
+    },
+     {
+        id: "Heartstopper",
+        titulo: "Heartstopper",
+        imagem: "Imagens/Heartstopper.jpg",
+        descricao: "Os adolescentes Charlie e Nick descobrem que sua amizade improvável pode ser algo mais enquanto navegam pelas descobertas da escola e do amor.",
+        trailer: "mK66N1e4b8Y"
+    },
+    {
+        id: "Com Amor Victor",
+        titulo: "Com Amor, Victor",
+        imagem: "Imagens/comamorvictor.jpg",
+        descricao: "Victor é um novo aluno na escola Creekwood que passa por sua própria jornada de autodescoberta, enfrentando desafios em casa e se adaptando à nova cidade.",
+        trailer: "Jb_VIn0G4xM"
+    },
+    {
+        id: "Gossip Girl",
+        titulo: "Gossip Girl",
+        imagem: "Imagens/gossipgril.jpg",
+        descricao: "A rotina escandalosa de adolescentes ricos de Nova York é revelada por uma blogueira misteriosa que sabe de todos os segredos do Upper East Side.",
+        trailer: "d_BiaZg94Zk"
+    },
+    {
+        id: "Bridgerton",
+        titulo: "Bridgerton",
+        imagem: "Imagens/bridgerton.jpg",
+        descricao: "Oito irmãos da rica família Bridgerton buscam o amor e a felicidade na alta sociedade de Londres, vigiados de perto por uma cronista anônima.",
+        trailer: "gpVcl7l7Joo"
+    },
+    {
+        id: "Anne with an E",
+        titulo: "Anne with an E",
+        imagem: "Imagens/annewithane.jpg",
+        descricao: "Uma jovem órfã com uma imaginação brilhante vai morar por engano com dois irmãos solteirões no interior, mudando a vida de toda a pequena comunidade.",
+        trailer: "S5qJXYnSfyY"
+    },
+    {
+        id: "One Tree Hill",
+        titulo: "One Tree Hill",
+        imagem: "Imagens/onetreehill.jpg",
+        descricao: "Dois meio-irmãos que compartilham o mesmo pai, mas cresceram em mundos opostos, colidem nas quadras de basquete e nas relações da pacata cidade.",
+        trailer: "v8xXmXb5Jv4"
+    },
+    {
+        id: "Gilmore Girls",
+        titulo: "Gilmore Girls",
+        imagem: "Imagens/gilmoregirls.jpg",
+        descricao: "O cotidiano e a relação cheia de humor e cumplicidade entre uma jovem mãe solteira e sua filha adolescente na charmosa cidadezinha de Stars Hollow.",
+        trailer: "g98_HAnS9Cg"
+    },
+    {
+        id: "The OC",
+        titulo: "The O.C.: Um Estranho no Paraíso",
+        imagem: "Imagens/theoc.jpg",
+        descricao: "Um jovem problemático de periferia é adotado por uma família rica em Newport Beach, mudando a dinâmica da comunidade superficial da Califórnia.",
+        trailer: "mXW4T3yY0zM"
+    },
+    {
+        id: "Pretty Little Liars",
+        titulo: "Pretty Little Liars",
+        imagem: "Imagens/prettylittleliars.jpg",
+        descricao: "Quatro amigas se unem contra um chantagista anônimo conhecido apenas como 'A', que ameaça revelar seus segredos mais sombrios após o desaparecimento da líder do grupo.",
+        trailer: "N4vL_7fA8m0"
+    },
+    {
+        id: "Emily em Paris",
+        titulo: "Emily em Paris",
+        imagem: "Imagens/emilyemparis.jpg",
+        descricao: "Uma jovem executiva de marketing de Chicago consegue o emprego dos sonhos em Paris, precisando equilibrar sua carreira, novas amizades e romances complicados.",
+        trailer: "lptctjXW8M4"
+    },
+    {
+        id: "Dawson s Creek",
+        titulo: "Dawson's Creek",
+        imagem: "Imagens/dawsonscreek.jpg",
+        descricao: "Um grupo de amigos lida com as complexidades da adolescência, amadurecimento, triângulos amorosos e sonhos em uma charmosa cidade litorânea.",
+        trailer: "Oa_O3Z-U8M4"
+    },
+    {
+        id: "Normal People",
+        titulo: "Normal People",
+        imagem: "Imagens/normalpeople.jpg",
+        descricao: "Acompanhe os encontros e desencontros complexos entre Marianne e Connell enquanto eles passam pelo colégio e pela universidade na Irlanda.",
+        trailer: "x1JQU7wXn7Y"
+    },
+    {
+        id: "My Lady Jane",
+        titulo: "My Lady Jane",
+        imagem: "Imagens/myladyjane.jpg",
+        descricao: "Uma releitura divertida e cheia de fantasia da história da realeza britânica, onde a jovem Jane Grey precisa salvar a si mesma e seu reino de conspirações.",
+        trailer: "x3Y4P-uN6H8"
+    },
+    {
+        id: "Maxton Hall",
+        titulo: "Maxton Hall: O Mundo Entre Nós",
+        imagem: "Imagens/maxtonhall.jpg",
+        descricao: "Uma estudante bolsista descobre um segredo de um herdeiro milionário em uma escola de elite, iniciando um jogo perigoso de poder e atração entre os dois.",
+        trailer: "q6fW4V9W_X8"
+    },
+    {
+        id: "Ginny e Georgia",
+        titulo: "Ginny & Georgia",
+        imagem: "Imagens/ginnyegeorgia.jpg",
+        descricao: "Uma mãe jovem e enigmática se muda com os filhos para o norte dos Estados Unidos em busca de um recomeço, mas os segredos do passado ameaçam sua nova vida.",
+        trailer: "m9fH4kXg4hY"
+    },
+    {
+        id: "High School Musical A Serie",
+        titulo: "High School Musical: A Série: O Musical",
+        imagem: "Imagens/hsm.jpg",
+        descricao: "Alunos da escola onde o filme original foi gravado se reúnem para produzir sua própria versão teatral de High School Musical, enfrentando dramas reais de bastidores.",
+        trailer: "RlaV8sJ5a_E"
+    },
+    {
+        id: "Glee",
+        titulo: "Glee",
+        imagem: "Imagens/glee.jpg",
+        descricao: "Um professor idealista tenta reerguer o coral da escola, transformando um grupo de alunos desajustados e talentosos em uma verdadeira família musical.",
+        trailer: "bKzY_K6zL08"
+    },
+    {
+        id: "Julie e os Fantasmas",
+        titulo: "Julie and the Phantoms",
+        imagem: "Imagens/julie.jpg",
+        descricao: "A adolescente Julie recupera sua paixão pela música após o surgimento inesperado de três fantasmas músicos em sua vida, formando uma banda com eles.",
+        trailer: "zG_zK7Xb8_M"
+    } ,
+    {
         id: " teen wolf",
         titulo: "teen wolf",
         imagem: "Imagens/teen wolf.jpg",
